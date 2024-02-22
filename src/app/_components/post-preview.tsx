@@ -26,7 +26,6 @@ export function PostPreview({
         <Avatar name={""} picture={author.picture} />
       </div>
       <h3 className="text-3xl mb-3 leading-snug">{author.name}</h3>
-      <p className="text-lg leading-relaxed mb-4">{excerpt}</p>
     </div>
   );
 }
